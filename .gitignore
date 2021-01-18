@@ -4,4 +4,4 @@
 *.scss.map
 yarn.lock
 node_modules/
-*scss
+scss

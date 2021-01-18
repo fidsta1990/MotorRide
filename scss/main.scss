@@ -13,7 +13,7 @@ body {
   background: $firstBg;
   font-family: "Lato", sans-serif;
   overflow-x: hidden;
-  position: relative;
+  min-height: 100vh;
 }
 
 a {
@@ -42,4 +42,13 @@ li {
   bottom: 0;
   right: 0;
   background: transparent;
+}
+
+footer {
+  font-size: 1.2rem;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto $s-size;
+  padding-left: 14px;
+ 
 }
