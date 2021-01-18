@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+@import "settings";
+@import "navbar";
+@import "hero";
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  background: $firstBg;
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #232323;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: #0066b1;
+  }
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding: 10px 0;
+  font-size: 22px;
+}
