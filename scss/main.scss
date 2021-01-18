@@ -13,6 +13,7 @@ body {
   background: $firstBg;
   font-family: "Lato", sans-serif;
   overflow-x: hidden;
+  position: relative;
 }
 
 a {
@@ -32,4 +33,13 @@ ul {
 li {
   padding: 10px 0;
   font-size: 22px;
+}
+
+.main {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: transparent;
 }
